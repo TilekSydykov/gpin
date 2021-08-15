@@ -1,0 +1,50 @@
+{
+	"auth": true,
+	"models": {
+		"user": {
+			"create": "admin",
+			"read": "admin",
+			"update": "admin",
+			"delete": "admin",
+			"fields": {
+				"name": {
+					"type": "string",
+					"n_update": "admin"
+				},
+				"password": {
+					"type": "string",
+					"n_update": "admin"
+				},
+				"email": {
+					"type": "string",
+					"n_update": "admin"
+				}
+			}
+		},
+		"usersd": {
+			"create": "admin",
+			"read": "admin",
+			"update": "admin",
+			"delete": "admin",
+			"fields": {
+				"name": {
+					"type": "string",
+					"n_update": "admin"
+				},
+				"password": {
+					"type": "string",
+					"n_update": "admin"
+				},
+				"email": {
+					"type": "string",
+					"n_update": "admin"
+				}
+			}
+		}
+	},
+	"roles": {
+		"admin": {},
+		"user": {},
+		"anonymous": {}
+	}
+}
